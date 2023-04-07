@@ -33,12 +33,12 @@ body{
     border-radius: 10px 10px 0px 0px;
 }
 .overlay{
-    display: flex;
     position: absolute;
-    color: blueviolet;
+    background-color: rgba(137, 43, 226, 0.508);
     height: 300px;
     width: 375px;
-    z-index: 999;
+    top: 0px;
+    mix-blend-mode: overlay;
 }
 
 .heading{
